@@ -32,7 +32,7 @@ This project uses the references from:
 - [cplusplus](https://cplusplus.com)
 - [cppreference](https://en.cppreference.com)
 
-# C++ Style Guide
+## C++ Style Guide
 
 This project uses the [Google Guideline](https://google.github.io/styleguide/cppguide.html) to Design Patterns and Style Guides.
 
