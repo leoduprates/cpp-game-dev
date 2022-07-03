@@ -1,4 +1,4 @@
-// Increment Operators
+// Variables
 // Reference: https://cplusplus.com/doc/tutorial/variables/
 
 #include <iostream>

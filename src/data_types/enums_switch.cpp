@@ -5,7 +5,7 @@
 
 enum PlayerStatus
 {
-    CROUCHED,
+    CROUCHED = 'c',
     STANDING,
     RUNNING,
     SPRITING
@@ -25,7 +25,7 @@ int main()
     switch (status)
     {
     case CROUCHED:
-        std::cout << "Crouched" << std::endl;
+        std::cout << char(CROUCHED) << std::endl;
         break;
     case STANDING:
         std::cout << "Standing" << std::endl;

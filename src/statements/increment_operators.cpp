@@ -27,7 +27,7 @@ int main()
     std::cout << "i was 2, now i is: " << i << std::endl;
 
     // Postincrement: first return the i, then first increment by 1.
-    ++i;
+    i++;
     std::cout << "i was 2, now i is: " << i << std::endl;
 
     return 0;

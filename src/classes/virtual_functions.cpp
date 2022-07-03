@@ -6,10 +6,8 @@
 class Object
 {
 public:
-    virtual void BeginPlay()
-    {
-        std::cout << "Object BeginPlay() called." << std::endl;
-    }
+    // Pure Virtual
+    virtual void BeginPlay() = 0;
 };
 
 class Actor : public Object
@@ -32,16 +30,12 @@ public:
 
 int main()
 {
-    Object *object = new Object;
-    object->BeginPlay();
-
     Actor *actor = new Actor;
     actor->BeginPlay();
 
     Pawn *pawn = new Pawn;
     pawn->BeginPlay();
 
-    delete object;
     delete actor;
     delete pawn;
 

@@ -11,8 +11,9 @@ struct LocationVector
     float z;
 };
 
-struct Character
+class Character
 {
+public:
     std::string name;
     float health;
     int level;

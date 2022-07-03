@@ -1,5 +1,5 @@
 // Polymorphism
-// Reference:
+// Reference: https://cplusplus.com/doc/tutorial/polymorphism/
 
 #include <iostream>
 
@@ -43,9 +43,9 @@ int main()
         pawn
     };
 
-    for (int i = 0; i < std::size(characterArray); i++)
+    for (auto character : characterArray)
     {
-        characterArray[i]->BeginPlay();
+        character->BeginPlay();
     }
 
     return 0;
